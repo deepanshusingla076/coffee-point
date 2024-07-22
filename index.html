@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee Point</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="all-content">
+   
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="logo"><img src="images/images.png"alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#order">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallary">Gallary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="content">
+      <h3>Start Your Day With a <br> Fresh Cup of Coffee</h3>
+      <p>Discover the finest blends from around the world. Indulge in the rich, <br>smooth flavors that only the best coffee can provide.</p>
+      <button id="btn"><a href="#menu">Order Now </a></button>
+    </div>
+</section>
+
+
+<!-- about section -->
+<div class="about" id="about">
+  <div class="container">
+    <div class="heading">About <span>Us</span></div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="coffee.webp" alt="About Our Coffee">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>What Makes Our Coffee Special?</h3>
+        <p>Our journey begins with sourcing the finest beans from sustainable farms across the globe. Each batch is carefully selected and roasted to perfection, ensuring a rich and unique flavor profile. Our commitment to quality means we bring you a cup of coffee that's not just good, but memorable.
+          <br><br>From the high-altitude farms of Ethiopia to the lush valleys of Colombia, we explore the world to bring you the best coffee experience. Our expert roasters use their years of experience to craft blends that celebrate the unique characteristics of each region.
+          <br><br>But what truly sets us apart is our passion for community and sustainability. We partner with local farmers, ensuring fair practices and supporting the communities that grow our coffee. This commitment to excellence and ethics means every cup you enjoy not only tastes good but also does good.
+         </p>
+         <button id="about-btn">Learn More </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- top cards -->
+<section class="top-cards">
+  <div class="heading2">Top <span>Categories</span></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/c1.png" alt="">
+          <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Try Now</button>
+          
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/c2.png" alt="">
+          <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Try Now</button>
+          
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/c3.png" alt="">
+          <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Try Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- top cards -->
+
+<!-- menu -->
+<section class="menu" id="menu">
+  <div class="container">
+  <div class="heading3">Menu</div>
+</div>
+  <div class="container" id="container2">
+  <div class="row">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="Cappuccino_at_Sightglass_Coffee.jpg.webp" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Cappuccino</h3>
+          <p>Rs499<strike> Rs799</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="download.jpeg" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Americano</h3>
+          <p>Rs160 <strike>Rs210</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="download (5).jpeg" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Mocha</h3>
+          <p>Rs400 <strike>Rs600</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="download (10).jpeg" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Espresso</h3>
+          <p>Rs220 <strike>Rs300</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 50px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="Partners-Latte-FT-BLOG0523-09569880de524fe487831d95184495cc.jpg" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Latte</h3>
+          <p>Rs799 <strike>Rs999</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="download (2).jpeg" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Flat White</h3>
+          <p>Rs180 <strike>Rs250</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="download (3).jpeg" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Macchiato</h3>
+          <p>Rs300 <strike>Rs400</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="affogato-4776668-hero-08-40d7a68d12ba46f48eaea3c43aba715c.jpg" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Affogato</h3>
+          <p>Rs500 <strike>Rs650</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<br><br>
+
+ <!-- Contact Us Section -->
+ <section id="order" class="section ">
+  <div class="container">
+      <h2 class="text-center">Order Online</h2>
+      <p class="text-center">Take-Away or delivery, now both made easy</p>
+      <form>
+          <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="phnumber" class="form-label">Mobile No.</label>
+              <input type="number" class="form-control" id="phnumber" aria-describedby="emailHelp">
+            </div>
+          <div class="mb-3">
+            <label for="wmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+              <label for="order">Order</label>
+              <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your Order"></textarea>
+          </div>
+          <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Order</button>
+            <button type="reset" class="btn btn-primary">Reset</button>
+      </form>
+  </div>
+</section>
+
+<!-- our gallary -->
+<div class="container" id="gallary">
+  <h1>Our <span>Gallary</span></h1>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image1.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image2.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image3.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image4.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image5.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image6.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- our gallary -->
+
+<!-- contact -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="heading6">Get in <span>Touch</span></div>
+        <p>We'd love to hear from you. Whether you have a question about our coffee, need assistance with an order, or just want to chat about the wonders of coffee, we're all ears.</p>
+        <input class="form-control" type="text" placeholder="Your Name" aria-label="Name"><br>
+        <input class="form-control" type="email" placeholder="Your Email" aria-label="Email"><br>
+        <input class="form-control" type="number" placeholder="Your Phone Number" aria-label="Number"><br>
+        <button id="contact-btn">Send Message</button>
+      </div>
+      <div class="col-md-5" id="col">
+        <h1>Contact Information</h1>
+        <p><i class="fa-regular fa-envelope"></i> contact@ourcoffee.com</p>
+        <p><i class="fa-solid fa-phone"></i> +1234567890</p>
+        <p><i class="fa-solid fa-building-columns"></i> 123 Coffee Lane, ABC City, World</p>
+        <p>Feel free to reach out to us with any inquiries. Our team is dedicated to providing you with the best service possible.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact -->
+
+   <!-- footer -->
+   <footer id="footer">
+    <div class="footer-logo text-center"><img src="images/images.png" alt=""></div>
+    <div class="socail-links text-center">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+<br>
+    <div class="copyright text-center"><b>
+      &copy; Copyright <strong><span>Coffee Point</span></strong>. All Rights Reserved</b>
+  </div>
+</footer>
+   <!-- footer -->
+
+   <a href="#" class="arrow"><i><img src="images/images.png" alt="" width="50px"></i></a>
+
+
+  </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+  
+
